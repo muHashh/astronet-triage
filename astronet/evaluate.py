@@ -24,9 +24,9 @@ import sys
 import tensorflow as tf
 
 from astronet import models
-from astronet.util import config_util
-from astronet.util import configdict
-from astronet.util import estimator_util
+from util import config_util
+from util import configdict
+from util import estimator_util
 
 parser = argparse.ArgumentParser()
 

@@ -27,9 +27,9 @@ import pandas as pd
 
 import tensorflow as tf
 from astronet import models
-from astronet.util import config_util
-from astronet.util import configdict
-from astronet.data.preprocess import read_and_process_light_curve
+from util import config_util
+from util import configdict
+from data.preprocess import read_and_process_light_curve
 from sklearn.metrics import roc_curve
 
 parser = argparse.ArgumentParser()
